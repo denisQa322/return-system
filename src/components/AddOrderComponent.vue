@@ -76,7 +76,7 @@ section {
       gap: toVw(70px);
       .input {
         display: grid;
-        flex-direction: column;
+        justify-items: center;
         label {
           font-size: toVw(20px);
           margin-bottom: toVw(5px);
@@ -94,8 +94,8 @@ section {
       grid-template-columns: repeat(2, 1fr);
       gap: toVw(70px);
       .select {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        justify-items: center;
         label {
           font-size: toVw(20px);
           margin-bottom: toVw(5px);
@@ -118,7 +118,7 @@ section {
       border: none;
       cursor: pointer;
       img {
-        width: toVw(70px);
+        width: toVw(40px);
       }
     }
   }

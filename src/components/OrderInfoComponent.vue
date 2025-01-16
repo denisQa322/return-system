@@ -70,7 +70,6 @@ const sellerName = ref('')
 @use '@/assets/styles/tovw.scss' as *;
 
 section {
-  padding-top: toVw(25px);
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   row-gap: toVw(10px);
@@ -79,16 +78,14 @@ section {
     border: toVw(1px) solid #0067a4;
     border-radius: toVw(10px);
     padding: toVw(10px);
-    display: flex;
-    gap: toVw(15px);
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    row-gap: toVw(15px);
     &-content {
-      display: flex;
-      flex-direction: column;
+      display: grid;
       gap: toVw(15px);
       div {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
       }
       label {
         font-size: toVw(15px);
@@ -99,9 +96,8 @@ section {
       }
     }
     &-buttons {
-      display: flex;
-      justify-content: center;
-      gap: toVw(15px);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       &-button {
         border: none;
         background: none;

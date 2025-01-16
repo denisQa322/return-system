@@ -19,9 +19,8 @@
 <style lang="scss" scoped>
 @use '@/assets/styles/tovw.scss' as *;
 header {
-  padding-top: toVw(25px);
+  padding: toVw(25px) 0;
   .header {
-    padding-bottom: toVw(25px);
     &-navigation {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
