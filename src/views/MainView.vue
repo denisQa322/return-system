@@ -6,7 +6,7 @@
       <div class="main-info">
         <h1 class="main-info-header">
           Добро пожаловать в
-          <span class="main-info-header-span">систему управления заказами(СУЗ)</span>
+          <span class="main-info-header-span">систему управления заказами</span>
         </h1>
         <p class="main-info-text">
           Данная система предназначена для учета по
